@@ -1,0 +1,51 @@
+body {
+    font: 13px/1.2307692308 "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(5, 17.5rem);
+  
+    .cards {
+      width: 240px;
+      text-align: center;
+      margin: 10px;
+      padding: 1rem;
+      border: 3px solid white;
+  
+      img {
+        width: 240px;
+        height: 350px;
+        margin: 0 auto;
+      }
+  
+      .movies-info {
+        height: auto;
+        margin: auto;
+  
+        .title {
+          height: auto;
+          font-size: 15px;
+          font-weight: bold;
+          overflow: hidden;
+          margin-block-end: 10px;
+        }
+  
+        .iconScore {
+          font-size: 16px;
+          padding-bottom: 0.5rem;
+  
+          .icon {
+            width: 25px;
+            height: 25px;
+          }
+        }
+  
+        .dvdReleaseDate {
+          color: rgb(131, 130, 130);
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
